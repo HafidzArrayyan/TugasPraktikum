@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>KOTA SERANG</title>
+    <link rel="icon" href="kotser.png"/>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <nav>
+        <div class="menu">
+                <a href="#" onclick="showMenu()">Menu</a>
+                </div>
+            <img src="logo2.png" >
+            <ul id="menu">
+                <li><a href="#beranda">HOME</a></li>
+                <li><a href="#">PROFIL KOTA SERANG</a></li>
+                <li><a href="#tentang">TENTANG KOTA SERANG</a></li>
+                <li><a href="#">BERITA</a></li>
+            </ul>
+    </nav>
+    <div id="beranda" class="bgimage">
+        <div class="gelap"></div>
+<div id="konten" class="konten">
+    <img src="kotser.png">
+    <h1 class="teks">Pemerintah Kota Serang</h1>
+    <blockquote class="bq">
+        <p>~ Kota Serang Madani ~</p>
+    <blockquote>
+</div>
+</div>
+<div class="walkot">
+        <img src="kotaserangbaru.jpg">
+        <h1>pemerintah kota serang</h1>
+        <p>TERWUJUDNYA KOTA PERADABAN YANG BERDAYA DAN BERBUDAYA</p>
+    </div>
+<div id="tentang" class="content">
+    <div class="left">
+    <h1>
+        TENTANG
+        <br>
+        KOTA
+        <br>
+        <span>SERANG</span>
+        <br>
+</h1>
+    <p>
+        Kota Serang adalah ibu kota Provinsi Banten, Indonesia. Kota ini berada di bagian utara
+        <br>
+        Provinsi Banten, serta dikelilingi oleh Kabupaten Serang di sebelah selatan, barat, dan 
+        <br>
+        dan timur, dan Laut Jawa di sebelah utara. Kota Serang dilintasi jalan tol lintas 
+        <br>
+        Jakarta-Merak. Kota Serang dan daerah sekitarnya terhitung istimewa secara budaya karena   
+        <br>
+        disini dipertuturkan Bahasa Jawa Serang atau Bahasa Jawa Banten.<br>
+    </p>
+</div>
+<div class="right">
+    <img class="isi" src="kotser.png">
+</div>
+</div>
+<div class="wisata">
+    <div class="gelap2"></div>
+    <h1>wisata kota serang</h1>
+    <div class="mab">
+        <header> masjid agung banten</header>
+        <img src="mab.jpg">
+        <p>Masjid Agung Banten adalah salah satu masjid tertua di Indonesia yang penuh dengan nilai sejarah. Setiap harinya masjid ini ramai dikunjungi para peziarah yang datang tidak hanya dari Banten dan Jawa Barat, tetapi juga dari berbagai daerah di Pulau Jawa. Masjid ini dikenali dari bentuk menaranya yang sangat mirip dengan bentuk sebuah bangunan mercusuar.
+        Masjid ini dibangun pertama kali pada 1556 oleh Sultan Maulana Hasanuddin (1552-1570), sultan pertama dari Kesultanan Banten. Ia adalah putra pertama dari Sunan Gunung Jati.</p>
+    </div>
+    <div class="lokasi">
+            <header> lokasi</header>
+            <i class="fa fa-map-marker fa-lg"></i>
+            <a class="fa fa-mosque"></a>
+            <p>Masjid Agung Banten terletak di Desa Banten Lama, tepatnya di desa Banten, sekitar 10 km sebelah utara Kota Serang. Akses ke lokasi dapat dituju dengan kendaraan pribadi atau kendaraan umum. Dari terminal Terminal Pakupatan, Serang menggunakan bis jurusan Banten Lama atau mencarter mobil angkutan kota menuju lokasi selama lebih kurang setengah jam.</p>
+        </div>
+</div>
+<script>
+        function showMenu(){
+            var menu=document.getElementById("menu");
+            var box=document.getElementById("konten");
+
+            if(menu.style.display === "block"){
+                menu.style.display = "none";
+                box.style.paddingTop = "0px";
+            }else{
+                menu.style.display = "block";
+                box.style.paddingTop = "150px";
+                }
+            }
+    </script>
+</body>
+</html>
